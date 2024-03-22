@@ -3,6 +3,8 @@
 a eframe gui app to sort any directory.
 writen in **rust**
 
+![ScreenShot](./screenshot.png)
+
 ## Usage
 - go to releases page and download windows binary( linux and macos support in progress ).
 - run the binary input your dir path and click sort directory button.
