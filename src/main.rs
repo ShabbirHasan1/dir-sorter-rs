@@ -69,10 +69,10 @@ fn sort(input_path: &str) -> io::Result<()> {
     // Define categories and their corresponding file extensions
     let categories: HashMap<&str, Vec<&str>> = [
         ("Images", vec!["jpg", "png", "gif", "bmp", "webp", "jpeg"]),
-        ("Videos", vec!["mp4", "mkv"]),
-        ("Documents", vec!["pdf", "doc", "docx", "txt"]),
-        ("Code", vec!["rs", "py", "js", "cpp", "c"]),
-        ("Archives", vec!["zip", "rar", "7z"]),
+        ("Videos", vec!["mp4", "mkv", "avi", "mov", "wmv", "webm", "mpg"]),
+        ("Documents", vec!["pdf", "doc", "docx", "txt", "odt", "rtf", "csv", "xls", "xlsx"]),
+        ("Code", vec!["rs", "py", "js", "cpp", "c", "java", "css", "html", "xml", "sh"]),
+        ("Archives", vec!["zip", "rar", "7z", "tar", "gz", "bz2", "xz"]),
         ("Executables", vec!["exe", "msi"]),
         ("ISO files", vec!["iso", "dmg"]),
         // Add more categories and extensions as needed
